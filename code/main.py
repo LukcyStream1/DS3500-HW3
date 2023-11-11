@@ -93,11 +93,11 @@ def main():
     E.add_solution(initial_solution)
 
     # Run the evolutionary algorithm
-    E.evolve(1000, 100, 100)  # parameters: iterations, population size, mutation rate
+    E.evolve(1000000000, 100, 100)  # parameters: iterations, population size, mutation rate
 
     # Output the results
     print(E.pop.keys())
 
-    E.csv(groupname='case')
+    E.csv(groupname='lijuashe')
 if __name__ == '__main__':
     main()
